@@ -57,7 +57,15 @@ section img {
         max-width: 30vw;
     }
 }
-
+@media screen and (min-width: 900px){
+    .video iframe {
+        width: 50vw;
+        height: 60vh;
+    }
+    section img {
+        max-width: 30vw;
+    }
+}
 @media screen and (min-width: 1201px){
     section {
         max-width: 70vw;
@@ -67,3 +75,10 @@ section img {
         height: 90vh;
     }
 }
+@media screen and (min-width: 1320px){
+    .video iframe {
+        width: 40vw;
+        height: 70vh;
+    }
+}
+

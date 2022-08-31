@@ -118,9 +118,33 @@ footer a:hover{
         }
         iframe {
             width: 70vw;
-            height: 45vh;
+            height: 60vh;
         }
         nav.perso {
             width: 70vw;
         }
+}
+@media screen and (min-width: 1350px){
+    .foto {
+        width: 5vw;
+    }
+    iframe {
+        width: 70vw;
+        height: 53vh;
+    }
+    nav.perso {
+        width: 70vw;
+    }
+}
+@media screen and (min-width: 1720px){
+    .foto {
+        width: 5vw;
+    }
+    iframe {
+        width: 70vw;
+        height: 45vh;
+    }
+    nav.perso {
+        width: 70vw;
+    }
 }
