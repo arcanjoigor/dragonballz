@@ -48,10 +48,13 @@ section img {
     height: 50vh;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 460px){
     .video iframe {
         width: 50vw;
         height: 40vh;
+    }
+    section img {
+        max-width: 30vw;
     }
 }
 
